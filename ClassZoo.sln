@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_Sharp", "C_Sharp", "{19A2B4A5-8C19-5512-A8B5-40F83BB80AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05EA28DD-7D5A-36D9-A03D-48E86C2E90A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassZoo", "C_Sharp\src\ClassZoo.csproj", "{04127BF1-239D-40D4-289F-D56BE89A463D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04127BF1-239D-40D4-289F-D56BE89A463D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04127BF1-239D-40D4-289F-D56BE89A463D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04127BF1-239D-40D4-289F-D56BE89A463D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04127BF1-239D-40D4-289F-D56BE89A463D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05EA28DD-7D5A-36D9-A03D-48E86C2E90A8} = {19A2B4A5-8C19-5512-A8B5-40F83BB80AFA}
+		{04127BF1-239D-40D4-289F-D56BE89A463D} = {05EA28DD-7D5A-36D9-A03D-48E86C2E90A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CF735C9-B8D2-43F3-BC43-96C15CDE8D7F}
+	EndGlobalSection
+EndGlobal
